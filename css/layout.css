@@ -20,7 +20,42 @@
 }
 
 .container {
-	display: grid
+	width:100vw;
+	height:100vh;
+	display: grid;
+	grid-template-columns:10% 90%;
+	grid-template-rows: 5% auto 5%;
+}
+.column {
+	grid-area: menu;
+	grid-column:1/2;
+	grid-row:1/4;
+}
+
+body {
+	margin:0px;
+	overflow-x:hidden;
+}
+
+header {
+	grid-column:2/3;
+	grid-row:1/2;
+}
+
+.main {
+	grid-column:2/3;
+	grid-row:2/3;
+}
+.main .item {
+	float:left;
+	margin:2em;
+	width:20em;
+	height:20em;
+}
+
+footer {
+	grid-column:2/3;
+	grid-row:3/4;
 }
 
 .menu .item{

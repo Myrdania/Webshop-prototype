@@ -26,5 +26,7 @@
 .color-info-light {}
 .color-info-dark {}
 
-.color-primary-background {}
-.color-secondary-background {}
+.color-primary-background {background-color: #e6ccb3;}
+.color-secondary-background {background-color: #c68a53;}
+
+.main .item {background-color:#cc1;}
