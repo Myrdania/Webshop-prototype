@@ -1,0 +1,35 @@
+.color-primary {color:#b35900;}
+.color-primary-light{}
+.color-primary-dark {}
+
+.color-secondary {}
+.color-secondary-light {}
+.color-secondary-dark {}
+
+.color-accent,a, a:hover {color:#a33900;}
+.color-accent-light {}
+.color-accent-dark {}
+
+.color-success {color:#59b300;}
+.color-success-light {}
+.color-success-dark {}
+
+.color-warning {color:#F90000;}
+.color-warning-light {}
+.color-warning-dark {}
+
+.color-panic {color:#F900E0;font-weight:bolder;}
+.color-panic-light {}
+.color-panic-dark {}
+
+.color-info {color:#4d2600;}
+.color-info-light {}
+.color-info-dark {}
+
+.color-primary-background {}
+.color-secondary-background {}
+
+body {
+	background-color:#000;
+	color:#ccc;
+}
